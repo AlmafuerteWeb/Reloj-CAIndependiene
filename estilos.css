@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(img/cai-ok.jpg) #F0F0F0;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+}
+
+body .conten{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1000px;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+    /*margin:auto;*/
+}
+
+.widget {
+    width: 40%;
+    margin: 2em;
+    /*margin:32px; */
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    /*margin-bottom: 5px;*/
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj {
+    font-family: Oswald, Arial;
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+}
+
+.reloj .caja-segundos {
+    display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+    font-size: 2rem;
+    display: block;
+}
+/*---------------FOOTER------------*/
+/*---------------------------------*/
+
+/*footer {*/
+  /*  background: #2f2f2f;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0%;
+    position: relative;
+    height: 150px;*/
+/*}*/
+
+footer .contenedor {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/*footer img {
+    margin: 40px;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    width: 25px;
+}*/
+
+/*footer img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+
+}*/
+
+footer p {
+    color: #fff;
+    margin-top: 375px;
+    
+
+}
+
+/*--------FIN--FOOTER--------------*/
+/*---------------------------------*/
